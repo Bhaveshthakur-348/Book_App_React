@@ -1,0 +1,41 @@
+.App {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.ColImg {
+  display: flex;
+  height: 350px;
+  object-fit: contain;
+  /* text-align: center; */
+  transition: transform 100ms;
+  /* justify-content: center; */
+}
+
+.ColImg:hover {
+  transform: scale(1.09);
+}
+
+.Img {
+  display: flex;
+  width: 300px;
+  padding: 20px;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+.Header {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.Author {
+  text-align: center;
+}
+.Genre {
+  text-align: center;
+}
